@@ -1,0 +1,116 @@
+* {
+  /*       border: 2px solid black; */
+      }
+    
+      /* finish Desktop variance with FlexBox */
+      /* Need to make button text color #F0ECEE */
+      /* Background Image NEEDS EDITS */
+    
+    body {
+     background-color: #f0ecee;
+     font-family: "Fira Sans", Sans-Serif;
+      }
+    
+      .top {
+        margin: 25px;
+      }
+    
+      .mid {
+        margin: 25px;
+      }
+    
+      .bottom {
+        margin: 25px;
+      }
+    
+    a, p { 
+      font-weight: 300;
+      text-decoration: none;
+  /*     color: #F0ECEE; */
+      color: #88898B;
+     }
+  
+   a:hover{
+      color: #FF4850
+    }
+  
+    p {
+    color: #88898B;
+    }
+  
+    ul {
+     color: #88898B; 
+     list-style-type: none;
+  }
+    
+      .maintext {
+        font-weight: 600;
+        }
+    
+      .subheading {
+        font-weight: 400;
+        }
+
+      a.button {
+        background-color: #FF4850;
+        color: #F0ecee;
+        border-radius: 15px;
+        padding: 10px;
+        text-align: center;
+        display: block;
+        }
+    
+      a.button:hover {
+        background-color: #CCC;
+        color: #FF4850;
+      }
+  
+      .navbar:hover {
+        color: #FF4850;
+        }
+      .emphasis {
+        color: #FF4850; 
+        }
+  @media screen and (min-width: 768px) {
+  body {
+  background-image: url("bulldog.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  
+
+  }
+    .top {
+      display: flex;
+    }
+    
+    .subheading {
+      flex: 1;
+    }
+    
+    .navbar {
+     flex: 1;
+     display: flex; 
+    }
+    
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      flex: 4;
+    }
+    
+    a.button {
+      width: auto;
+      display: inline-block;
+      
+    }
+      
+   
+      }
+    
+    
+    
+    
+    
+    
+    
